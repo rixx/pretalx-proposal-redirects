@@ -9,9 +9,8 @@ class PluginApp(AppConfig):
     class PretalxPluginMeta:
         name = gettext_lazy("Proposal redirects")
         author = "Tobias Kunze"
-        description = gettext_lazy("Redirects from pretalx.domain/shortcode to the matching proposal, if possible.")
-        visible = True
-        version = "0.0.0"
-
-    def ready(self):
-        from . import signals  # NOQA
+        description = gettext_lazy(
+            "Redirects from pretalx.domain/shortcode to the matching proposal, if possible."
+        )
+        visible = False
+        version = "1.0.0"
