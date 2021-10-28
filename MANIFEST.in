@@ -1,0 +1,3 @@
+recursive-include pretalx_proposal_redirects/static *
+recursive-include pretalx_proposal_redirects/templates *
+recursive-include pretalx_proposal_redirects/locale *
