@@ -1,12 +1,12 @@
 from django.http import Http404
-from django_scopes import scopes_disabled
 from django.shortcuts import redirect
+from django_scopes import scopes_disabled
 from pretalx.submission.models import Submission
 
 
 def redirect_view(request, code):
-    """
-    Possible TODOs:
+    """Possible TODOs:
+
     - filter applicable events by domain
     - add a similar view for /orga urls
     """
